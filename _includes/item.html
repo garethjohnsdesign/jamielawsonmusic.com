@@ -1,0 +1,9 @@
+<div class="item">
+		<a href="{{ project.url }}"><img src="{{ project.image }}" alt="{{project.title}}"></a>
+		<div class="item__title text-center" data-aos="fade-in">
+  		<ul class="vertical menu">
+        <li><a href="{{ project.url }}">{{ project.title }}</a</li>
+        <li><a href="{{ project.url }}">{{ project.date | date: "%Y" }}</a></li>
+      </ul>
+		</div>
+</div>

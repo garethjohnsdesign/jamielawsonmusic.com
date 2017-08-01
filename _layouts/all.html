@@ -1,0 +1,323 @@
+---
+layout: default
+---
+
+<!-- Journal -->
+
+
+
+
+<div class="grid-container">
+
+<!-- Releases -->
+  <div class="grid-x grid-padding-y align-center">
+  	<div class="shrink cell text-center">
+      <h1>Releases</h1>
+  	</div>
+  </div>
+  
+  <div class="grid-x grid-padding-x grid-padding-y">
+    <div class="small-12 cell" data-aos="fade-in">
+      
+      <div class="grid-x grid-padding-y show-for-medium all__title">
+        <div class="small-12 medium-2 large-1 cell">Date</div>
+        <div class="small-12 medium-2 large-3 cell">Title</div>
+        <div class="small-12 medium-2 large-2 cell">Format</div>
+        <div class="small-12 medium-2 large-2 cell">Project</div>
+        <div class="small-12 medium-2 large-2 cell">Label</div>
+        <div class="small-12 medium-2 large-2 cell">Credit</div>
+      </div>
+    	    
+      {% assign releases = site.releases | reverse %}
+      {% for project in releases %}
+      <div class="grid-x text-center medium-text-left">
+        <div class="small-12 medium-2 large-1 cell show-for-medium">{{project.date | date: "%Y" }}</div>
+        <div class="small-12 medium-2 large-3 cell">{{project.title}}</div>
+        <div class="small-12 medium-2 large-2 cell show-for-medium">{{project.format}}</div>
+        <div class="small-12 medium-2 large-2 cell show-for-medium">{{project.project}}</div>
+        <div class="small-12 medium-2 large-2 cell show-for-medium">{{project.record-label}}</div>
+        <div class="small-12 medium-2 large-2 cell show-for-medium">{{project.credit}}</div>
+        <div class="small-12 medium-2 large-1 cell show-for-small-only">{{project.date | date: "%Y" }}</div>
+      </div>
+      {%endfor%}
+         
+    </div>
+  </div>
+<!-- End Releases -->
+
+<!-- Production -->
+  <div class="grid-x grid-padding-y align-center">
+  	<div class="shrink cell text-center">
+      <h1>Production</h1>
+  	</div>
+  </div>
+  
+  <div class="grid-x grid-padding-x grid-padding-y">
+    <div class="small-12 cell" data-aos="fade-in">
+      
+      <div class="grid-x grid-padding-y show-for-medium all__title">
+        <div class="small-12 medium-2 large-1 cell">Date</div>
+        <div class="small-12 medium-2 large-3 cell">Title</div>
+        <div class="small-12 medium-2 large-2 cell">Format</div>
+        <div class="small-12 medium-2 large-2 cell">Project</div>
+        <div class="small-12 medium-2 large-2 cell">Label</div>
+        <div class="small-12 medium-2 large-2 cell">Credit</div>
+      </div>
+    	    
+      {% assign productions = site.production | reverse %}
+      {% for project in productions %}
+      <div class="grid-x text-center medium-text-left">
+        <div class="small-12 medium-2 large-1 cell show-for-medium">{{project.date | date: "%Y" }}</div>
+        <div class="small-12 medium-2 large-3 cell">{{project.title}}</div>
+        <div class="small-12 medium-2 large-2 cell show-for-medium">{{project.format}}</div>
+        <div class="small-12 medium-2 large-2 cell show-for-medium">{{project.project}}</div>
+        <div class="small-12 medium-2 large-2 cell show-for-medium">{{project.record-label}}</div>
+        <div class="small-12 medium-2 large-2 cell show-for-medium">{{project.credit}}</div>
+        <div class="small-12 medium-2 large-1 cell show-for-small-only">{{project.date | date: "%Y" }}</div>
+      </div>
+      {%endfor%}
+         
+    </div>
+  </div>
+<!-- End Production -->
+
+<!-- Scoring / Film -->
+  <div class="grid-x grid-padding-y align-center">
+  	<div class="shrink cell text-center">
+      <h1>Scoring / Film</h1>
+  	</div>
+  </div>
+  
+  <div class="grid-x grid-padding-x grid-padding-y">
+    <div class="small-12 cell" data-aos="fade-in">
+      
+      <div class="grid-x grid-padding-y show-for-medium all__title">
+        <div class="small-12 medium-2 large-1 cell">Date</div>
+        <div class="small-12 medium-2 large-3 cell">Title</div>
+        <div class="small-12 medium-4 large-4 cell">Director</div>
+        <div class="small-12 medium-4 large-4 cell">Credit</div>
+      </div>
+    	    
+      {% assign scoring-films = site.scoring-film | reverse %}
+      {% for project in scoring-films %}
+      <div class="grid-x text-center medium-text-left">
+        <div class="small-12 medium-2 large-1 cell show-for-medium">{{project.date | date: "%Y" }}</div>
+        <div class="small-12 medium-2 large-3 cell">{{project.title}}</div>
+        <div class="small-12 medium-4 large-4 cell show-for-medium">{{project.director}}</div>
+        <div class="small-12 medium-4 large-4 cell show-for-medium">{{project.credit}}</div>
+        <div class="small-12 medium-2 large-1 cell show-for-small-only">{{project.date | date: "%Y" }}</div>
+      </div>
+      {%endfor%}
+         
+    </div>
+  </div>
+<!-- End Scoring / Film -->
+
+    
+</div>
+
+
+  
+<!--
+<div class="grid-container" style="width; 100%;">
+<div class="grid-x grid-padding-x">
+    <div class="small-11 cell" data-aos="fade-in">
+    <h3>Test</h3>
+    <div class="journal__post__date">{{ post.date | date: site.date_format }}</div>
+    {{ content }}
+    </div>
+
+</div>
+</div>
+-->
+<!-- End Journal -->
+
+
+<!-- Releases -->
+
+<!--
+  <div class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+  	<div class="medium-10 large-8 cell text-center">
+      <h1>Releases</h1>
+  	</div>
+  </div>
+  </div>
+-->
+  
+<!--
+  <div class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y">
+    
+    
+    
+   
+      <div class="small-6 cell">
+      Test
+      </div>
+
+    
+    
+    
+  </div>
+  </div>
+-->
+
+<!-- End Releases -->
+
+
+<!-- Releases -->
+<!--
+<div class="grid-container">
+  <div class="grid-x align-center">
+  	<div class="shrink cell text-center">
+      <h1>Releases</h1>
+  	</div>
+  </div>
+</div>
+-->
+
+<!--
+<div class="grid-container">
+  <div class="grid-x">
+    <div class="small-12 cell" data-aos="fade-in">
+    
+      <div class="grid-x music__section__projects__header show-for-medium">
+        <div class="small-12 medium-2 large-1 cell">Date</div>
+        <div class="small-12 medium-2 large-3 cell">Title</div>
+        <div class="small-12 medium-2 large-2 cell">Format</div>
+        <div class="small-12 medium-2 large-2 cell">Label</div>
+      </div>
+  	    
+      {% assign releases = site.releases %}
+      {% for project in releases %}
+      <div class="grid-x music__section__projects__project text-center medium-text-left">
+        <div class="small-12 medium-2 large-1 cell show-for-medium">{{project.date | date: "%Y" }}</div>
+        <div class="small-12 medium-2 large-3 cell">{{project.title}}</div>
+        <div class="small-12 medium-2 large-2 cell show-for-medium">{{project.format}}</div>
+        <div class="small-12 medium-2 large-2 cell show-for-medium">{{project.label}}</div>
+        <div class="small-12 medium-2 large-1 cell show-for-small-only">{{project.date | date: "%Y" }}</div>
+      </div>
+      {%endfor%}
+       
+    </div>
+  </div>
+</div>
+-->
+<!-- End Releases -->
+
+<!-- Production --> 
+<!--
+<div class="grid-x align-center music__section__title">
+	<div class="medium-10 large-8 cell text-center">
+    <h1>Production</h1>
+	</div>
+</div>
+
+<div class="grid-x music__section__projects">
+  <div class="small-12 cell" data-aos="fade-in">
+  
+    <div class="grid-x music__section__projects__header show-for-medium">
+      <div class="small-12 medium-2 large-1 cell">
+      Date
+      </div>
+      <div class="small-12 medium-2 large-3 cell">
+      Title
+      </div>
+      <div class="small-12 medium-2 large-2 cell">
+      Artist
+      </div>
+      <div class="small-12 medium-2 large-2 cell">
+      Format
+      </div>
+      <div class="small-12 medium-2 large-2 cell">
+      Label
+      </div>
+      <div class="small-12 medium-2 large-2 cell">
+      Credit
+      </div>
+    </div>
+	    
+    {% assign productions = site.production %}
+    {% for project in productions %}
+    <div class="grid-x music__section__projects__project text-center medium-text-left">
+      <div class="small-12 medium-2 large-1 cell show-for-medium">
+      {{project.date | date: "%Y" }}
+      </div>
+      <div class="small-12 medium-2 large-3 cell">
+      {{project.title}}
+      </div>
+      <div class="small-12 medium-2 large-2 cell">
+      {{project.artist}}
+      </div>
+      <div class="small-12 medium-2 large-2 cell show-for-medium">
+      {{project.format}}
+      </div>
+      <div class="small-12 medium-2 large-2 cell show-for-medium">
+      {{project.record-label}}
+      </div>
+      <div class="small-12 medium-2 large-2 cell">
+      {{project.credit}}
+      </div>
+      <div class="small-12 medium-2 large-1 cell show-for-small-only">
+      {{project.date | date: "%Y" }}
+      </div>
+    </div>
+    {%endfor%}
+     
+  </div>
+</div>
+-->
+<!-- End Production -->
+
+<!-- Scoring / Film -->
+<!--
+<div class="grid-x align-center music__section__title">
+	<div class="medium-10 large-8 cell text-center">
+    <h1>Scoring / Film</h1>
+	</div>
+</div>
+
+<div class="grid-x music__section__projects">
+  <div class="small-12 cell" data-aos="fade-in">
+  
+    <div class="grid-x music__section__projects__header show-for-medium">
+      <div class="small-12 medium-2 large-1 cell">
+      Date
+      </div>
+      <div class="small-12 medium-2 large-3 cell">
+      Scoring / Film
+      </div>
+      <div class="small-12 medium-2 large-2 cell">
+      Director(s)
+      </div>
+      <div class="small-12 medium-2 large-2 cell">
+      Credit
+      </div>
+    </div>
+	    
+    {% assign scoring-films = site.scoring-film %}
+    {% for project in scoring-films %}
+    <div class="grid-x music__section__projects__project text-center medium-text-left">
+      <div class="small-12 medium-2 large-1 cell show-for-medium">
+      {{project.date | date: "%Y" }}
+      </div>
+      <div class="small-12 medium-2 large-3 cell">
+      {{project.title}}
+      </div>
+      <div class="small-12 medium-2 large-2 cell show-for-medium">
+      {{project.director}}
+      </div>
+      <div class="small-12 medium-2 large-2 cell show-for-medium">
+      {{project.credit}}
+      </div>
+      <div class="small-12 medium-2 large-1 cell show-for-small-only">
+      {{project.date | date: "%Y" }}
+      </div>
+    </div>
+    {%endfor%}
+     
+  </div>
+</div>
+-->
+<!-- End Releases -->

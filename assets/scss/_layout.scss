@@ -1,0 +1,388 @@
+//  Table of Contents:
+//
+//   1. Mixins
+//   2. Global
+//   3. Typography
+//   4. Animations
+//   5. Loading
+//   6. Navigation
+//   7. Index
+//   8. Projects
+//   9. Project
+//   10. All
+//   11. Journal
+//   12. About
+//   13. Contact
+//   14. Images
+//   15. Footer
+
+// 1. Mixins
+// ---------
+
+@mixin margin-one {
+  margin-bottom: 1rem;
+}
+
+@mixin margin-two {
+  margin-bottom: 2rem;
+}
+
+@mixin margin-three {
+  margin-bottom: 3rem;
+}
+
+@mixin links ($link, $hover) {
+  a {
+    color: $link;
+    &:hover {
+      color: $hover;   
+    }
+  }
+}
+
+@mixin link-underline($color, $size, $duration, $centered) {
+  color: $color;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  
+  &:before {
+    background-color: $color;
+    content: '';
+    height: $size;
+    position: absolute;
+    bottom: 0 - ($size/2);
+    transition: $duration;
+    width: 0;
+    @if $centered == 'true' {
+      left: 50%;
+      transform: translateX(-50%); 
+    }
+  }
+  
+  &:hover {
+    &:before {
+      width: 100%;
+    }
+  }
+}
+
+// 2. Global
+// ---------
+
+html, body {
+  height: 100%;
+}
+
+body {
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+}
+
+svg {
+  max-width: 100%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+::selection {
+  background: $primary-color;
+  color: $secondary-color;
+}
+
+:focus {
+  outline: 0;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+// 3. Typography
+// -------------
+
+a {
+  transition: $primary-transition;
+}
+
+a:hover {
+  color: $color--highlight;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+i, cite, em, var, address, dfn {
+  font-style: normal;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+// 4. Animations
+// ------
+
+[data-aos='fade-up'] {
+  transform: translate(0, 1rem);
+}
+
+// 5. Loading
+// ------
+
+.loader {
+  z-index: 3;
+  position: fixed;
+  background: $color--white;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  opacity: 1;
+  transition: $primary-transition;
+  visibility: visible;
+  
+  &.loaded {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+// 6. Navigation
+// ------
+
+.navigation {
+  z-index: 3;
+  padding: 2rem 1rem 1rem 1rem;
+  font-family: $header-font-family;
+  @include breakpoint(medium) {
+    padding: 2rem 2rem 1rem 2rem;
+  }
+  @include breakpoint(large) {
+    padding: 2rem 2rem 1rem 2rem;
+  }
+}
+
+.navigation__logo {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.navigation__small {
+  z-index: 3;
+}
+
+.navigation--mobile {
+  z-index: 1;
+  position: fixed;
+  background: $color--highlight;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  opacity: 0;
+  transition: $primary-transition;
+  visibility: hidden;
+  font-family: $header-font-family;
+  font-size: 1.5rem;
+
+  &.open {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  a {
+    color: $color--white;
+   padding: 1rem 0rem;
+  }
+  
+  a:hover {
+    color: $color--black;
+  }
+  
+  .menu .active>a {
+    color: black;
+  }
+  
+  .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+    background-color: $color--white;
+  } 
+}
+
+.navigation--light {
+  position: absolute;
+  width: 100%;
+  background-color: transparent;
+  
+  ul {
+    background-color: transparent;
+  }
+  a {
+    color: $color--white;
+  }
+  a:hover {
+    color: $color--black;
+  }
+  .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+    background-color: $color--white;
+  }
+}
+
+.navigation--light .is-dropdown-submenu {
+  border: 1px solid transparent;
+}
+
+// 7. Home
+// ------
+
+.home__hero-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+  padding: 2rem;
+  @include margin-three;
+  @include breakpoint(small only) {
+  height: 60vh;
+  }
+}
+
+.home__hero-text h2 {
+  text-transform: none;
+  color: $color--white;
+}
+
+.home__hero-text h3 {
+  text-transform: none;
+}
+
+// 8. Projects
+// ----------
+
+.projects__list a {
+  display: block;
+  width: 100%;
+  position: relative; 
+  padding-bottom: 1rem;
+}
+    
+.projects__list a:hover img {
+  filter: saturate(0%) brightness(40%); 
+}
+    
+.projects__list a img {
+  transition: $primary-transition;
+  display: block;
+  border: 1px solid $color--black;
+}
+
+// 9. Project
+// ---------
+
+.project__hero-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 60vh;
+  @include margin-three;
+  color: $color--white;
+  h1 {
+  font-size: 48px;
+  text-transform: none;
+  }
+  h1:after {
+  content: "";
+  }
+  h1:before {
+  content: "";
+  }
+}
+
+.project__hero-image__overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+}
+
+.project__credits {
+  color: $color--highlight;
+}
+
+.project__pagination a {
+  color: $color--highlight;
+}
+
+.project__pagination a:hover {
+  color: $color--black;
+}
+
+// 10. All
+// ---------
+
+.all__title {
+ color: $color--highlight;
+ padding-bottom: 1rem;
+}
+
+// 11. Journal
+// ---------
+
+.journal__post__date {
+ color: $color--highlight;
+ margin-bottom: 1rem;
+}
+
+// 12. About
+// ---------
+
+
+// 13. Contact
+// ---------
+
+
+.contact h2:not(:first-child) {
+  margin-top: 2rem;
+}
+
+// 14. Images
+// ---------
+
+.images__list .item {
+  display: block;
+  width: 100%;
+  position: relative; 
+}
+    
+.images__list .item:hover img {
+  filter: saturate(0%) brightness(40%); 
+}
+    
+.images__list .item img {
+  transition: $primary-transition;
+  display: block;
+  padding-bottom: 1rem;
+}
+
+// 4. Footer
+// ---------
+
+footer {
+  padding: 2rem 1rem 2rem 1rem;
+  @include breakpoint(medium) {
+    padding: 4rem 2rem 2rem 2rem;
+  }
+  @include breakpoint(large) {
+    padding: 4rem 2rem 2rem 2rem;
+  }
+  font-family: $header-font-family;
+}
+
+footer .menu .menu-text {
+  font-weight: normal;
+}

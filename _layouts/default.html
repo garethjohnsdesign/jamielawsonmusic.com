@@ -1,0 +1,65 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+<!-- Head -->
+{% include head.html %}
+<!-- End Head -->
+
+<body>
+  
+{% if page.layout == "home" %}
+<div class="grid-y align-center loader">
+  <div class="shrink cell">
+    <div class="grid-x grid-padding-x align-center">
+    	<div class="shrink cell" data-aos="fade-up">
+    		<svg class="icon icon-icon"><use xlink:href="/assets/icons/symbol-defs.svg#icon-icon"></use></svg>
+    	</div>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+
+<div class="wrapper">
+
+<!-- Navigation -->
+{% include navigation.html %}
+<!-- End Navigation -->
+<div class="grid-y align-left {{page.layout | slugify}}"  data-aos="fade-in">
+
+<div class="grid-x">
+<div class="cell">
+{{content}}
+</div>
+</div>
+
+
+</div>
+</div>
+
+
+<!-- Footer -->
+{% include footer.html %}
+<!-- End Footer-->
+
+<!-- Mobile Navigation -->  
+{% include navigation--mobile.html %}
+<!-- End Mobile Navigation --> 
+
+<!-- Scripts -->
+{% include scripts.html %}
+<!-- End Scripts -->
+
+<!-- Google Analytics -->
+{% if site.analytics %}
+{% include analytics.html %}
+{% endif %}
+<!-- End Google Analytics -->
+
+</body>
+
+</html>

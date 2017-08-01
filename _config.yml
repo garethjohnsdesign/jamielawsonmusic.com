@@ -1,0 +1,75 @@
+---
+title: Jamie Lawson
+timezone: UTC
+collections:
+  journal:
+    title: Journal
+    output: true
+  posts:
+    title: Posts
+    output: true
+  releases:
+    title: Releases
+    output: true
+  videos:
+    title: Videos
+    output: true
+  uploads:
+    title: Uploads
+    output: false
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/journal/:title/"
+- scope:
+    path: ''
+    type: releases
+  values:
+    layout: project
+url: http://ojfridel.com
+description: The New Album, Can’t See Straight, Out Now
+permalink: pretty
+exclude:
+- Gemfile
+- Gemfile.lock
+- bower.json
+- package.json
+- config.codekit3
+- README*
+- LICENSE*
+- CHANGELOG*
+- node_modules
+- ".gitignore"
+- bower_components
+gems:
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+colophon: http://garethjohnsdesign.com
+company: Atlantic Records
+email: info@jamielawsonmusic.com
+google_site_verification:
+analytics:
+logo: "/assets/img/logo.svg"
+per_page: 12
+date_format: "%d %B %Y"
+future: true
+social:
+  facebook: https://www.facebook.com/jamielawsonmusic
+  instagram: https://www.instagram.com/jamielawsonmusic
+  twitter: https://www.twitter.com/jamielawsonuk
+  soundcloud: https://soundcloud.com/jamie-lawson-music
+  youtube: https://youtube.com/channel/UC3R5UkoYFxLC37ek0YRkrDw
+compress_html:
+  comments:
+  - "<!-- "
+  - " -->"
+  blanklines: true
+  profile: false

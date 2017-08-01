@@ -1,0 +1,83 @@
+---
+layout: default
+---
+
+<!-- Hero -->
+<div class="home__hero-image" style="background-image: url({{page.hero-image}})">
+  <div class="grid-x align-middle align-center" style="height: 100%;">
+    <div class="small-10 cell home__hero-text" data-aos="fade-in" data-aos-delay="500">
+      <h2>The New Album Out Now</h2>
+      <h3>"Can't See Straight"</h3>
+      <h2>Out Now</h2>
+    </div>
+  </div>
+</div>
+<!-- End Hero -->
+
+<!-- Sign-Up -->
+<div class="grid-container" data-aos="fade-in" id="sign-up">
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+  	<div class="small-11 medium-10 large-8 cell text-center">
+      <h2>{{page.sign-up-text}}</h2>
+  	</div>
+  </div>
+</div>
+<!-- End Sign-Up  -->
+
+<!-- Releases -->
+<div class="grid-x grid-padding-x grid-padding-y align-center">
+	<div class="medium-10 large-8 cell text-center">
+      <h1>Releases</h1>
+      <a href="/releases">View All</a>
+	</div>
+</div>
+
+<div class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-3 large-up-3 projects__list">
+    {% assign releases = site.releases | reverse %}
+    {% for project in releases limit:6 %}
+      <div class="cell" data-aos="fade-in">
+      {% include item.html %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+<!-- End Releases -->
+
+
+<!-- Videos -->
+<div class="grid-x grid-padding-x grid-padding-y align-center">
+	<div class="medium-10 large-8 cell text-center">
+      <h1>Videos</h1>
+      <a href="/videos">View All</a>
+	</div>
+</div>
+
+<div class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-3 large-up-3 projects__list">
+    {% assign videos = site.videos | reverse %}
+    {% for project in videos limit:6 %}
+      <div class="cell" data-aos="fade-in">
+      {% include item.html %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+<!-- End Videos -->
+
+<!-- Live -->
+<div class="grid-x grid-padding-x grid-padding-y align-center">
+	<div class="medium-10 large-8 cell text-center">
+      <h1>Live</h1>
+	</div>
+</div>
+
+<div class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y">
+      <div class="cell" data-aos="fade-in">
+      <a href="http://www.songkick.com/artists/36920" class="songkick-widget" data-theme="light" data-detect-style="true" data-font-color="#333333" data-background-color="transparent">Live</a>
+<script src="//widget.songkick.com/widget.js"></script>
+      </div>
+  </div>
+</div>
+<!-- End Videos -->
