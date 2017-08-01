@@ -11,12 +11,12 @@ collections:
   releases:
     title: Releases
     output: true
-  videos:
-    title: Videos
-    output: true
   uploads:
     title: Uploads
     output: false
+  videos:
+    title: Videos
+    output: true
 defaults:
 - scope:
     path: ''
@@ -55,8 +55,8 @@ highlighter: rouge
 colophon: http://garethjohnsdesign.com
 company: Atlantic Records
 email: info@jamielawsonmusic.com
-google_site_verification:
-analytics:
+google_site_verification: 
+analytics: 
 logo: "/assets/img/logo.svg"
 per_page: 12
 date_format: "%d %B %Y"
