@@ -12,6 +12,11 @@ tracks:
 - Panic Attacks
 - Almost All the Time
 - Heal a Bone
-- 
+- Union St
+- It's Over
+- Brave
+- Bruises
+- O'Familiarity
+- Last Night Stars
 ---
 
