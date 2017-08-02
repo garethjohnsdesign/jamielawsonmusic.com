@@ -262,21 +262,41 @@ h1, h2 {
   text-transform: none;
 }
 
-// 8. Projects
+// 8. Releases
 // ----------
 
-.projects__list a {
+.releases__list a {
   display: block;
   width: 100%;
   position: relative; 
   padding-bottom: 1rem;
 }
     
-.projects__list a:hover img {
+.releases__list a:hover img {
   filter: saturate(0%) brightness(40%); 
 }
     
-.projects__list a img {
+.releases__list a img {
+  transition: $primary-transition;
+  display: block;
+  border: 1px solid $color--black;
+}
+
+// 8. Videos
+// ----------
+
+.videos__list a {
+  display: block;
+  width: 100%;
+  position: relative; 
+  padding-bottom: 1rem;
+}
+    
+.videos__list a:hover img {
+  filter: saturate(0%) brightness(40%); 
+}
+    
+.videos__list a img {
   transition: $primary-transition;
   display: block;
   border: 1px solid $color--black;
