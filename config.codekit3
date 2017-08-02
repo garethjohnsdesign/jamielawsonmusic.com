@@ -99,6 +99,12 @@
 		"oAP": "\/_includes\/scripts.html",
 		"oF": 0
 		},
+	"\/_includes\/video.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/video.html",
+		"oF": 0
+		},
 	"\/_layouts\/all.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -405,6 +411,27 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/_site\/assets\/img\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/img\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/og-image.png": {
+		"ft": 32768,
+		"iS": 5383,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/img\/og-image.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/_site\/assets\/js\/app.js": {
 		"ft": 64,
 		"mi": 1,
@@ -594,10 +621,10 @@
 		"oAP": "\/_site\/releases\/jamie-lawson\/index.html",
 		"oF": 0
 		},
-	"\/_site\/releases\/the-pull-of-the-moon copy\/index.html": {
+	"\/_site\/releases\/last-night-stars\/index.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/releases\/the-pull-of-the-moon copy\/index.html",
+		"oAP": "\/_site\/releases\/last-night-stars\/index.html",
 		"oF": 0
 		},
 	"\/_site\/releases\/the-pull-of-the-moon\/index.html": {

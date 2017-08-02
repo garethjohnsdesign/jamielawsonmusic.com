@@ -37,7 +37,7 @@ layout: default
     {% assign releases = site.releases | reverse %}
     {% for project in releases limit:6 %}
       <div class="cell" data-aos="fade-in">
-      {% include item.html %}
+      {% include release.html %}
       </div>
     {% endfor %}
   </div>
@@ -58,7 +58,7 @@ layout: default
     {% assign videos = site.videos | reverse %}
     {% for project in videos limit:6 %}
       <div class="cell" data-aos="fade-in">
-      {% include item.html %}
+      {% include video.html %}
       </div>
     {% endfor %}
   </div>
