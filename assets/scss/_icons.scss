@@ -50,3 +50,20 @@ Single-colored icons can be modified like so:
 footer .icon {
   font-size: 1.5rem;
 }
+
+
+.icon-arrow-down {
+  font-size: 2rem;
+  color: $color--white;
+  transition: $primary-transition;
+}
+
+.icon-arrow-down:hover {
+  color: $color--black;
+}
+
+
+.icon-play {
+  font-size: 3rem;
+  color: $color--white;
+}

@@ -2,21 +2,18 @@
 title: Jamie Lawson
 timezone: UTC
 collections:
-  journal:
-    title: Journal
-    output: true
   posts:
     title: Posts
-    output: true
+    output: false
   releases:
     title: Releases
-    output: true
+    output: false
   uploads:
     title: Uploads
     output: false
   videos:
     title: Videos
-    output: true
+    output: false
 defaults:
 - scope:
     path: ''

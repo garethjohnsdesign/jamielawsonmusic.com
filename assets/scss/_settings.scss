@@ -66,7 +66,7 @@
 // ---------
 
 // $global-font-size: 100%;
-$global-font-size: 14px;
+$global-font-size: 15px;
 // $global-width: rem-calc(1200);
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
@@ -181,7 +181,7 @@ $header-styles: (
 */
 $header-styles: (
   small: (
-    'h1': ('font-size': 20),
+    'h1': ('font-size': 32),
     'h2': ('font-size': 20),
     'h3': ('font-size': 20),
     'h4': ('font-size': 18),
@@ -441,7 +441,7 @@ $dropdownmenu-min-width: 200px;
 $dropdownmenu-background: $color--white;
 $dropdownmenu-submenu-background: $dropdownmenu-background;
 // $dropdownmenu-padding: $global-menu-padding;
-$dropdownmenu-padding: 1rem 1rem;
+$dropdownmenu-padding: 1rem 0.5rem;
 $dropdownmenu-nested-margin: 0;
 $dropdownmenu-submenu-padding: $dropdownmenu-padding;
 // $dropdownmenu-border: 1px solid $medium-gray;

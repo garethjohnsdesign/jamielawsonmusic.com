@@ -22,6 +22,7 @@ $('#video-gallery').lightGallery({
 
 $('#featured-video-gallery').lightGallery({
     selector: '.excerpt',
+    counter: false,
     youtubePlayerParams: {
         modestbranding: 1,
         showinfo: 0,

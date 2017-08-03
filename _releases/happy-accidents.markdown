@@ -20,8 +20,9 @@ tracks:
 - Other Side Of The Day
 - Love Come Down
 - Sorrow Town feat. Ron Sexsmith
-itunes: https://itunes.apple.com/gb/album/happy-accidents-deluxe/id1260644213?ls=1&&app=itunes&at=10lqoH&ct=LFV_b74a8b0c17d55db1ae8586bd6aab34ad
-amazon: 
+itunes: https://lnk.to/happyaccidentsAW/itunes
+amazon: https://lnk.to/happyaccidentsAW/amazon
+google: https://lnk.to/happyaccidentsAW/google-play
 stream: 
 ---
 

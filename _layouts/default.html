@@ -24,31 +24,21 @@ layout: compress
 {% endif %}
 
 
-<div class="wrapper">
+<!-- Mobile Navigation -->  
+{% include navigation--mobile.html %}
+<!-- End Mobile Navigation --> 
 
 <!-- Navigation -->
 {% include navigation.html %}
 <!-- End Navigation -->
 
-<div class="grid-y align-left {{page.layout | slugify}}"  data-aos="fade-in">
-
-<div class="grid-x">
-<div class="cell">
 {{content}}
-</div>
-</div>
-
-</div>
-</div>
-
 
 <!-- Footer -->
 {% include footer.html %}
 <!-- End Footer-->
 
-<!-- Mobile Navigation -->  
-{% include navigation--mobile.html %}
-<!-- End Mobile Navigation --> 
+
 
 <!-- Scripts -->
 {% include scripts.html %}

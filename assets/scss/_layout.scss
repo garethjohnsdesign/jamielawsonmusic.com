@@ -83,14 +83,8 @@
 // 2. Global
 // ---------
 
-html, body {
-  height: 100%;
-}
-
 body {
   cursor: default;
-  display: flex;
-  flex-direction: column;
 }
 
 svg {
@@ -112,14 +106,6 @@ img {
   outline: 0;
 }
 
-.wrapper {
-  flex: 1 0 auto;
-}
-
-.accordion-menu a {
-//   border-bottom: 1px solid $color--black;
-font-family: 'Marr Sans Semibold', sans-serif;
-}
 
 // 3. Typography
 // -------------
@@ -142,6 +128,19 @@ i, cite, em, var, address, dfn {
 
 h1, h2 {
   text-transform: uppercase;
+}
+
+.accordion-menu li {
+font-family: 'Marr Sans Semibold', sans-serif;
+}
+
+.accordion-menu .menu li {
+font-family: $body-font-family;
+}
+
+.view-all {
+  border-bottom: 1px solid $color--black;
+  padding-bottom: 0.25rem;
 }
 
 // 4. Animations
@@ -235,9 +234,10 @@ h1, h2 {
 
 .navigation--light {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   background-color: transparent;
-  
   ul {
     background-color: transparent;
   }
@@ -257,22 +257,25 @@ h1, h2 {
 }
 
 section {
-  margin-bottom: 6rem;
+  margin-bottom: 5rem;
 }
 
 // 7. Home
 // ------
 
 .home__hero-image {
+  position: relative;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left center;
-  background-attachment: fixed;
-  height: 90vh;
-  padding: 0rem;
+//   background-attachment: fixed;
+  height: 100vh;
   @include breakpoint(small only) {
-  height: 80vh;
-  background-attachment: scroll;
+//   background-attachment: scroll;
+  background-position: 10% 50%;
+  }
+  @include breakpoint(medium) {
+  height: 100vh;
   }
 }
 
@@ -287,6 +290,9 @@ section {
 
 .home__hero-text h3 {
   @include links ($color--black, $color--white);
+  @include breakpoint(small only) {
+  @include links ($color--white, $color--black);
+  }
 }
 
 .home__hero-text .menu.simple {
@@ -298,12 +304,21 @@ section {
   text-transform: none;
 }
 
+.home__hero-arrow {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+}
+
 .home__live {
   margin-bottom: 0;
 }
 
 .home__hero-text__album {
   @include margin-two;
+  @include breakpoint(small only) {
+  margin-bottom: 0;
+  }
 }
 
 // 8. Releases
@@ -341,6 +356,7 @@ section {
     
 .videos__list a img {
   transition: $primary-transition;
+  filter: saturate(100%) brightness(80%); 
   display: block;
 }
 
@@ -447,6 +463,7 @@ section {
 footer {
   background-color: scale-color($primary-color, $lightness: 0%);
   color: $color--white;
+  margin-top: 2rem;
   padding: 2rem 1rem 2rem 1rem;
   @include breakpoint(medium) {
     padding: 2rem 2rem 2rem 2rem;
