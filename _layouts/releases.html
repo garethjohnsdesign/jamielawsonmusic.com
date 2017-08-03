@@ -4,11 +4,11 @@ layout: default
 
 <!-- Releases -->
 <div class="grid-container">
-  <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-2 large-up-3 projects__list">
+  <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-3 large-up-3 releases__list">
     {% assign releases = site.releases | reverse %}
-    {% for project in releases %}
+    {% for release in releases limit:6 %}
       <div class="cell" data-aos="fade-in">
-      {% include item.html %}
+      {% include release.html %}
       </div>
     {% endfor %}
   </div>

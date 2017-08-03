@@ -1,4 +1,37 @@
+<!--
 <div class="item">
-		<a href="{{ project.url }}"><img src="{{ project.image }}" alt="{{project.title}}"></a>
-		<div class="item__title text-center" data-aos="fade-in">{{ project.title }}</div>
+	<a href="{{ video.url }}">
+		<img src="{{ video.image }}" alt="{{video.title}}">
+		
+		<div class="item__title" data-aos="fade-up">
+  		
+  		<div class="grid-y" style="height: 100%">
+        <div class="cell">
+    		<h5>{{ video.title }}<h5>
+        </div>
+      </div>
+    		
+    </div>
+    
+	</a>
+</div>
+-->
+
+
+<div class="item">
+   <a href="{{video.video}}">
+<img src="{{ video.image }}" alt="{{video.title}}">
+
+
+		<div class="item__title">
+    
+      <div class="grid-y align-middle align-center text-center" style="height: 100%">
+        <div class="cell" data-src="{{video.video}}">
+  		<h5>{{ video.title }}</h5>
+  		  </div>
+  		</div>
+
+    </div>
+
+    </a>
 </div>

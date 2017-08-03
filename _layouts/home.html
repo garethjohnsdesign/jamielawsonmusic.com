@@ -3,28 +3,68 @@ layout: default
 ---
 
 <!-- Hero -->
-<div class="home__hero-image" style="background-image: url({{page.hero-image}})">
+<section>
+<div class="home__hero-image grid-margin-y" style="background-image: url({{page.hero-image}})">
   <div class="grid-x align-middle align-center" style="height: 100%;">
     <div class="small-10 cell home__hero-text" data-aos="fade-in" data-aos-delay="500">
       <h1>Happy Accidents</h1>
       <h1>Out 29 September</h1>
       <h3>Pre-order Now</h3>
+      <h3>Listen to new song ‘Can’t See Straight’ here</h3>
     </div>
   </div>
 </div>
+</section>
 <!-- End Hero -->
 
 <!-- Sign-Up -->
-<div class="grid-container" data-aos="fade-in" id="sign-up">
-  <div class="grid-x grid-padding-x grid-padding-y align-center">
+<section>
+<div class="home__sign-up grid-container" data-aos="fade-in" id="sign-up">
+  
+  <div class="grid-x grid-padding-x grid-margin-y align-center">
   	<div class="small-11 medium-10 large-8 cell text-center">
       <h2>{{page.sign-up-text}}</h2>
   	</div>
   </div>
-</div>
+  
+  <div class="grid-x grid-margin-y align-center">
+    <div class="shrink cell">
+      <form>
+      <div class="input-group">
+        <input class="input-group-field" type="text" placeholder="Your Email Address">
+        <div class="input-group-button">
+        <input type="submit" class="button" value="Submit">
+        </div>
+      </div>
+      </form>
+    </div>
+  </div>
+  
+  <div class="grid-x align-center">
+    <div class="shrink cell">
+      <small>No spam ever. Unsubscribe with one click any time.</small>
+    </div>
+  </div>
+</section>
 <!-- End Sign-Up  -->
 
+
+<!-- Featured Videos -->
+<section>
+  <div class="grid-x videos__list" id="featured-video-gallery">
+    {% assign videos = site.videos | reverse | where: "is-featured", "true" %}
+    {% for video in videos limit:6 %}
+      <div class="cell excerpt" data-src="{{video.video}}" data-aos="fade-in">
+      {% include video.html %}
+      </div>
+    {% endfor %}
+  </div>
+</section>
+<!-- End Videos -->
+
+
 <!-- Releases -->
+<section>
 <div class="grid-x grid-padding-x grid-padding-y align-center">
 	<div class="medium-10 large-8 cell text-center">
       <h1>Releases</h1>
@@ -42,10 +82,12 @@ layout: default
     {% endfor %}
   </div>
 </div>
+</section>
 <!-- End Releases -->
 
 
 <!-- Videos -->
+<section>
 <div class="grid-x grid-padding-x grid-padding-y align-center">
 	<div class="medium-10 large-8 cell text-center">
       <h1>Videos</h1>
@@ -54,18 +96,21 @@ layout: default
 </div>
 
 <div class="grid-container">
-  <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-3 large-up-3 videos__list">
+  <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-3 large-up-3 videos__list" id="video-gallery">
     {% assign videos = site.videos | reverse %}
-    {% for project in videos limit:6 %}
-      <div class="cell" data-aos="fade-in">
+    {% for video in videos limit:6 %}
+      <div class="cell excerpt" data-src="{{video.video}}" data-aos="fade-in">
       {% include video.html %}
       </div>
     {% endfor %}
   </div>
 </div>
+
+</section>
 <!-- End Videos -->
 
 <!-- Live -->
+<section class="home__live">
 <div class="grid-x grid-padding-x grid-padding-y align-center">
 	<div class="medium-10 large-8 cell text-center">
       <h1>Live</h1>
@@ -75,9 +120,10 @@ layout: default
 <div class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y">
       <div class="cell" data-aos="fade-in">
-      <a href="http://www.songkick.com/artists/36920" class="songkick-widget" data-theme="light" data-detect-style="true" data-font-color="#333333" data-background-color="transparent">Live</a>
+      <a href="http://www.songkick.com/artists/36920" class="songkick-widget" data-theme="light" data-detect-style="true" data-font-color="#333333" data-background-color="transparent"></a>
 <script src="//widget.songkick.com/widget.js"></script>
       </div>
   </div>
 </div>
+</section>
 <!-- End Videos -->
