@@ -28,8 +28,8 @@ defaults:
     type: releases
   values:
     layout: project
-url: http://ojfridel.com
-description: Happy Accidents Out 29 September
+url: http://jamielawsonmusic.com
+description: Happy Accidents — Out 29 September
 permalink: pretty
 exclude:
 - Gemfile

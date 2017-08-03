@@ -116,6 +116,11 @@ img {
   flex: 1 0 auto;
 }
 
+.accordion-menu a {
+//   border-bottom: 1px solid $color--black;
+font-family: 'Marr Sans Semibold', sans-serif;
+}
+
 // 3. Typography
 // -------------
 
@@ -262,10 +267,12 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left center;
+  background-attachment: fixed;
   height: 90vh;
   padding: 0rem;
   @include breakpoint(small only) {
   height: 80vh;
+  background-attachment: scroll;
   }
 }
 
@@ -443,7 +450,7 @@ footer {
   @include breakpoint(large) {
     padding: 3rem 3rem 3rem 3rem;
   }
-  font-family: $header-font-family;
+  font-family: 'Marr Sans Semibold', sans-serif;
 }
 
 footer .menu .menu-text {

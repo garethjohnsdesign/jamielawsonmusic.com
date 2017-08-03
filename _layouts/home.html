@@ -20,7 +20,7 @@ layout: default
         </ul>
       </div>
       
-      <div class="home__hero-text__album">
+      <div class="home__hero-text__listen">
         <h3>Listen to new song ‘Can’t See Straight’</h3>
         
         <ul class="menu simple align-right">
@@ -29,15 +29,15 @@ layout: default
         </ul>
       </div>
       
-    </div>
-  </div>
+    </div> 
+  </div>  
 </div>
 </section>
 <!-- End Hero -->
 
 <!-- Sign-Up -->
 <section>
-<div class="home__sign-up grid-container" data-aos="fade-in" id="sign-up">
+<div class="home__sign-up grid-container" data-aos="fade-in">
   
   <div class="grid-x grid-padding-x grid-margin-y align-center">
   	<div class="small-11 medium-10 large-8 cell text-center">
@@ -47,14 +47,18 @@ layout: default
   
   <div class="grid-x grid-margin-y align-center">
     <div class="shrink cell">
-      <form>
+      
+      <form action="https://signup.wmg.com/register" method="post"> 
+      <input type="hidden" name="list_id" value="71521">
+      <input name="mid" type="hidden" value="6355843">
       <div class="input-group">
-        <input class="input-group-field" type="text" placeholder="Your Email Address">
+        <input class="input-group-field" type="text" placeholder="Your Email Address"  name="email">
         <div class="input-group-button">
         <input type="submit" class="button" value="Submit">
         </div>
       </div>
       </form>
+
     </div>
   </div>
   

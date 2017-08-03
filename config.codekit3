@@ -51,6 +51,12 @@
 		"oAP": "\/_includes\/footer.html",
 		"oF": 0
 		},
+	"\/_includes\/form.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/form.html",
+		"oF": 0
+		},
 	"\/_includes\/head.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -379,11 +385,33 @@
 		"oAP": "\/_site\/assets\/fonts\/marrsans-regular.woff2",
 		"oF": 0
 		},
+	"\/_site\/assets\/fonts\/marrsans-semibold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/fonts\/marrsans-semibold.woff",
+		"oF": 0
+		},
+	"\/_site\/assets\/fonts\/marrsans-semibold.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/fonts\/marrsans-semibold.woff2",
+		"oF": 0
+		},
 	"\/_site\/assets\/icons\/icon.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/_site\/assets\/icons\/icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/assets\/icons\/symbol-defs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/icons\/symbol-defs.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -525,42 +553,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/index.html",
-		"oF": 0
-		},
-	"\/_site\/journal\/fermentum-ipsum-amet\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/journal\/fermentum-ipsum-amet\/index.html",
-		"oF": 0
-		},
-	"\/_site\/journal\/malesuada-tellus-purus-fringilla\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/journal\/malesuada-tellus-purus-fringilla\/index.html",
-		"oF": 0
-		},
-	"\/_site\/journal\/ridiculus-sem\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/journal\/ridiculus-sem\/index.html",
-		"oF": 0
-		},
-	"\/_site\/journal\/saari-win-european-award\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/journal\/saari-win-european-award\/index.html",
-		"oF": 0
-		},
-	"\/_site\/journal\/tristique-fringilla-sem\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/journal\/tristique-fringilla-sem\/index.html",
-		"oF": 0
-		},
-	"\/_site\/journal\/venenatis-tortor\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/journal\/venenatis-tortor\/index.html",
 		"oF": 0
 		},
 	"\/_site\/live\/index.html": {
@@ -847,12 +839,12 @@
 		},
 	"\/_uploads\/index-hero.jpg": {
 		"ft": 16384,
-		"iS": 158888,
+		"iS": 303799,
 		"oA": 0,
 		"oAP": "\/_uploads\/index-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/_uploads\/jamie-lawson.jpg": {
@@ -1119,11 +1111,33 @@
 		"oAP": "\/assets\/fonts\/marrsans-regular.woff2",
 		"oF": 0
 		},
+	"\/assets\/fonts\/marrsans-semibold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/marrsans-semibold.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/marrsans-semibold.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/marrsans-semibold.woff2",
+		"oF": 0
+		},
 	"\/assets\/icons\/icon.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/assets\/icons\/icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/icons\/symbol-defs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/icons\/symbol-defs.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -8430,6 +8444,64 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/bower_components\/parallax.js\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/parallax.js\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/parallax.js\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/parallax.js\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/parallax.js\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/parallax.js\/LICENSE",
+		"oF": 0
+		},
+	"\/bower_components\/parallax.js\/parallax.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/parallax.js\/parallax.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/parallax.js\/parallax.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/parallax.js\/parallax.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/parallax.js\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/parallax.js\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/bower_components\/svgxuse\/.bower.json": {
 		"ft": 524288,

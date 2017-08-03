@@ -8,6 +8,15 @@
 }
 
 @font-face {
+  font-family: 'Marr Sans Semibold';
+  src: 
+  url('../fonts/marrsans-semibold.woff2') format('woff2'), 
+  url('../fonts/marrsans-semibold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Marr Sans Bold';
   src: 
   url('../fonts/marrsans-bold.woff2') format('woff2'), 
