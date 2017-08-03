@@ -285,6 +285,10 @@ section {
   color: $color--white;
 }
 
+.home__hero-text h3 {
+  @include links ($color--black, $color--white);
+}
+
 .home__hero-text .menu.simple {
   @include links ($color--white, $color--black);
 // color: $color--white
@@ -459,4 +463,8 @@ footer .menu .menu-text {
 
 footer li a {
   color: $color--white;
+}
+
+.lg-sub-html {
+  font-family: $header-font-family;
 }
