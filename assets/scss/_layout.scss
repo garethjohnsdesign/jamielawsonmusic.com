@@ -261,7 +261,7 @@ section {
 .home__hero-image {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: left center;
   height: 90vh;
   padding: 0rem;
   @include breakpoint(small only) {
@@ -278,12 +278,21 @@ section {
   color: $color--white;
 }
 
+.home__hero-text .menu.simple {
+  @include links ($color--white, $color--black);
+// color: $color--white
+}
+
 .home__hero-text h3 {
   text-transform: none;
 }
 
 .home__live {
   margin-bottom: 0;
+}
+
+.home__hero-text__album {
+  @include margin-two;
 }
 
 // 8. Releases
@@ -425,16 +434,22 @@ section {
 // ---------
 
 footer {
+  background-color: scale-color($primary-color, $lightness: 0%);
+  color: $color--white;
   padding: 2rem 1rem 2rem 1rem;
   @include breakpoint(medium) {
     padding: 2rem 2rem 2rem 2rem;
   }
   @include breakpoint(large) {
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 3rem 3rem 3rem 3rem;
   }
   font-family: $header-font-family;
 }
 
 footer .menu .menu-text {
-  font-weight: normal;
+  color: $color--white;
+}
+
+footer li a {
+  color: $color--white;
 }

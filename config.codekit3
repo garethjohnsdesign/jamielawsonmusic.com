@@ -189,40 +189,10 @@
 		"oAP": "\/_layouts\/videos.html",
 		"oF": 0
 		},
-	"\/_posts\/2016-09-22-ridiculus-sem.markdown": {
+	"\/_releases\/cant-see-straight.markdown": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_posts\/2016-09-22-ridiculus-sem.markdown",
-		"oF": 0
-		},
-	"\/_posts\/2017-01-20-malesuada-tellus-purus-fringilla.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_posts\/2017-01-20-malesuada-tellus-purus-fringilla.markdown",
-		"oF": 0
-		},
-	"\/_posts\/2017-03-02-fermentum-ipsum-amet.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_posts\/2017-03-02-fermentum-ipsum-amet.markdown",
-		"oF": 0
-		},
-	"\/_posts\/2017-03-09-tristique-fringilla-sem.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_posts\/2017-03-09-tristique-fringilla-sem.markdown",
-		"oF": 0
-		},
-	"\/_posts\/2017-04-19-saari-win-european-award.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_posts\/2017-04-19-saari-win-european-award.markdown",
-		"oF": 0
-		},
-	"\/_posts\/2017-04-19-venenatis-tortor.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_posts\/2017-04-19-venenatis-tortor.markdown",
+		"oAP": "\/_releases\/cant-see-straight.markdown",
 		"oF": 0
 		},
 	"\/_releases\/happy-accidents.markdown": {
@@ -419,16 +389,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/_site\/assets\/icons\/symbol-defs.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/icons\/symbol-defs.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/_site\/assets\/img\/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -450,11 +410,29 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/_site\/assets\/js\/app.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/js\/min\/app-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/_site\/assets\/js\/instafeed.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/js\/min\/instafeed-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_site\/assets\/js\/min\/app-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/js\/min\/min\/app-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -486,6 +464,19 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/_site\/assets\/scss\/app.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/css\/app.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/_site\/assets\/scss\/hamburgers\/hamburgers.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -511,12 +502,6 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"\/_site\/contact\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/contact\/index.html",
-		"oF": 0
 		},
 	"\/_site\/feed.xml": {
 		"ft": 8192,
@@ -546,12 +531,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/journal\/fermentum-ipsum-amet\/index.html",
-		"oF": 0
-		},
-	"\/_site\/journal\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/journal\/index.html",
 		"oF": 0
 		},
 	"\/_site\/journal\/malesuada-tellus-purus-fringilla\/index.html": {
@@ -588,6 +567,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/live\/index.html",
+		"oF": 0
+		},
+	"\/_site\/releases\/cant-see-straight\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/releases\/cant-see-straight\/index.html",
 		"oF": 0
 		},
 	"\/_site\/releases\/happy-accidents\/index.html": {
@@ -678,9 +663,19 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/_site\/uploads\/happy-accidents.jpg": {
+		"ft": 16384,
+		"iS": 180030,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/happy-accidents.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/_site\/uploads\/index-hero.jpg": {
 		"ft": 16384,
-		"iS": 287397,
+		"iS": 303799,
 		"oA": 0,
 		"oAP": "\/_site\/uploads\/index-hero.jpg",
 		"oF": 0,
@@ -835,6 +830,16 @@
 		"iS": 115183,
 		"oA": 0,
 		"oAP": "\/_uploads\/dont-let-me-let-you-go.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/happy-accidents.jpg": {
+		"ft": 16384,
+		"iS": 180030,
+		"oA": 0,
+		"oAP": "\/_uploads\/happy-accidents.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1119,16 +1124,6 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/assets\/icons\/icon.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/assets\/icons\/symbol-defs.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/assets\/icons\/symbol-defs.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -8643,24 +8638,6 @@
 		"oAP": "\/bower_components\/what-input\/yarn.lock",
 		"oF": 0
 		},
-	"\/contact.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/contact.md",
-		"oF": 1,
-		"oFM": 9,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"\/Gemfile": {
 		"ft": 8192,
 		"oA": 2,
@@ -8709,24 +8686,6 @@
 		"oAP": "\/index.md",
 		"oF": 1,
 		"oFM": 9,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/journal.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/journal.html",
-		"oF": 0,
-		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -8874,25 +8833,25 @@
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/lightgallery.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/aos\/dist\/aos.js",
 			"position": 5,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/modules\/lg-video.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/lightgallery.js",
 			"position": 6,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/modules\/lg-fullscreen.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/modules\/lg-video.js",
 			"position": 7,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/aos\/dist\/aos.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/modules\/lg-fullscreen.js",
 			"position": 8,
 			"type": 0
 			}
