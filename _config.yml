@@ -14,17 +14,6 @@ collections:
   videos:
     title: Videos
     output: false
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    permalink: "/journal/:title/"
-- scope:
-    path: ''
-    type: releases
-  values:
-    layout: project
 url: http://jamielawsonmusic.com
 description: Happy Accidents — Out 29 September
 permalink: pretty
@@ -40,6 +29,7 @@ exclude:
 - node_modules
 - ".gitignore"
 - bower_components
+- assets/scss
 gems:
 - jekyll-seo-tag
 - jekyll-sitemap
@@ -52,8 +42,8 @@ highlighter: rouge
 colophon: http://garethjohnsdesign.com
 company: Atlantic Records
 email: info@jamielawsonmusic.com
-google_site_verification: 
-analytics: 
+google_site_verification: 2H45n7mXX-fA6WSupvqf8l_OGWjVhCHS3q_QJawahsw
+analytics: UA-77347534-2
 logo: "/assets/img/logo.svg"
 per_page: 12
 date_format: "%d %B %Y"
@@ -64,6 +54,7 @@ social:
   twitter: https://www.twitter.com/jamielawsonuk
   soundcloud: https://soundcloud.com/jamie-lawson-music
   youtube: https://youtube.com/channel/UC3R5UkoYFxLC37ek0YRkrDw
+  spotify: https://open.spotify.com/artist/1jhdZdzOd4TJLAHqQdkUN
 compress_html:
   comments:
   - "<!-- "

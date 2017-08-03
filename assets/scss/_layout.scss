@@ -12,8 +12,6 @@
 //   10. All
 //   11. Journal
 //   12. About
-//   13. Contact
-//   14. Images
 //   15. Footer
 
 // 1. Mixins
@@ -106,6 +104,10 @@ img {
   outline: 0;
 }
 
+section {
+  margin-bottom: 5rem;
+}
+
 
 // 3. Typography
 // -------------
@@ -131,16 +133,17 @@ h1, h2 {
 }
 
 .accordion-menu li {
-font-family: 'Marr Sans Semibold', sans-serif;
+  font-family: $semibold-font-family;
 }
 
 .accordion-menu .menu li {
-font-family: $body-font-family;
+  font-family: $body-font-family;
 }
 
 .view-all {
   border-bottom: 1px solid $color--black;
   padding-bottom: 0.25rem;
+  font-family: $semibold-font-family;
 }
 
 // 4. Animations
@@ -163,8 +166,7 @@ font-family: $body-font-family;
   width: 100%; 
   opacity: 1;
   transition: $primary-transition;
-  visibility: visible;
-  
+  visibility: visible;  
   &.loaded {
     opacity: 0;
     visibility: hidden;
@@ -188,7 +190,7 @@ font-family: $body-font-family;
 
 .navigation__logo {
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 .navigation__small {
@@ -216,7 +218,7 @@ font-family: $body-font-family;
   
   a {
     color: $color--white;
-   padding: 1rem 0rem;
+    padding: 1rem 0rem;
   }
   
   a:hover {
@@ -238,26 +240,29 @@ font-family: $body-font-family;
   left: 0;
   width: 100%;
   background-color: transparent;
+  
   ul {
     background-color: transparent;
   }
+  
   a {
     color: $color--white;
   }
+  
   a:hover {
     color: $color--black;
   }
+  
   .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
     background-color: $color--white;
   }
 }
 
-.navigation--light .is-dropdown-submenu {
-  border: 1px solid transparent;
-}
+// 7. Lightgallery
+// ---------------
 
-section {
-  margin-bottom: 5rem;
+.lg-sub-html {
+  font-family: $header-font-family;
 }
 
 // 7. Home
@@ -267,20 +272,14 @@ section {
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left center;
-//   background-attachment: fixed;
+  background-position: 0% 50%;
   height: 100vh;
   @include breakpoint(small only) {
-//   background-attachment: scroll;
   background-position: 10% 50%;
   }
   @include breakpoint(medium) {
   height: 100vh;
   }
-}
-
-.home__sign-up {
-  @include margin-three;
 }
 
 .home__hero-text h1 {
@@ -297,7 +296,6 @@ section {
 
 .home__hero-text .menu.simple {
   @include links ($color--white, $color--black);
-// color: $color--white
 }
 
 .home__hero-text h3 {
@@ -310,7 +308,7 @@ section {
   width: 100%;
 }
 
-.home__live {
+#home__live {
   margin-bottom: 0;
 }
 
@@ -410,52 +408,6 @@ section {
   color: $color--black;
 }
 
-// 10. All
-// ---------
-
-.all__title {
- color: $color--highlight;
- padding-bottom: 1rem;
-}
-
-// 11. Journal
-// ---------
-
-.journal__post__date {
- color: $color--highlight;
- margin-bottom: 1rem;
-}
-
-// 12. About
-// ---------
-
-
-// 13. Contact
-// ---------
-
-
-.contact h2:not(:first-child) {
-  margin-top: 2rem;
-}
-
-// 14. Images
-// ---------
-
-.images__list .item {
-  display: block;
-  width: 100%;
-  position: relative; 
-}
-    
-.images__list .item:hover img {
-  filter: saturate(0%) brightness(40%); 
-}
-    
-.images__list .item img {
-  transition: $primary-transition;
-  display: block;
-  padding-bottom: 1rem;
-}
 
 // 4. Footer
 // ---------
@@ -480,8 +432,4 @@ footer .menu .menu-text {
 
 footer li a {
   color: $color--white;
-}
-
-.lg-sub-html {
-  font-family: $header-font-family;
 }

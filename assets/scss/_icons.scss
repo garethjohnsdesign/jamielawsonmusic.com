@@ -54,16 +54,16 @@ footer .icon {
 
 .icon-arrow-down {
   font-size: 2rem;
-  color: $color--white;
-  transition: $primary-transition;
+  fill: $color--white;
+  transition: fill .4s ease;
 }
 
 .icon-arrow-down:hover {
-  color: $color--black;
+  fill: $color--black;
 }
 
 
-.icon-play {
+.item .icon-play {
   font-size: 3rem;
   color: $color--white;
 }

@@ -57,12 +57,6 @@
 		"oAP": "\/_includes\/footer.html",
 		"oF": 0
 		},
-	"\/_includes\/form.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/form.html",
-		"oF": 0
-		},
 	"\/_includes\/head.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -117,22 +111,10 @@
 		"oAP": "\/_includes\/video.html",
 		"oF": 0
 		},
-	"\/_layouts\/all.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/all.html",
-		"oF": 0
-		},
 	"\/_layouts\/compress.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/compress.html",
-		"oF": 0
-		},
-	"\/_layouts\/contact.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/contact.html",
 		"oF": 0
 		},
 	"\/_layouts\/default.html": {
@@ -141,28 +123,10 @@
 		"oAP": "\/_layouts\/default.html",
 		"oF": 0
 		},
-	"\/_layouts\/holding.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/holding.html",
-		"oF": 0
-		},
 	"\/_layouts\/home.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/home.html",
-		"oF": 0
-		},
-	"\/_layouts\/images.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/images.html",
-		"oF": 0
-		},
-	"\/_layouts\/journal.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/journal.html",
 		"oF": 0
 		},
 	"\/_layouts\/live.html": {
@@ -181,12 +145,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/page.html",
-		"oF": 0
-		},
-	"\/_layouts\/project.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/project.html",
 		"oF": 0
 		},
 	"\/_layouts\/releases.html": {
@@ -237,292 +195,10 @@
 		"oAP": "\/_site\/404.html",
 		"oF": 0
 		},
-	"\/_site\/assets\/favicons\/android-chrome-192x192.png": {
-		"ft": 32768,
-		"iS": 321,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/favicons\/android-chrome-192x192.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/assets\/favicons\/android-chrome-256x256.png": {
-		"ft": 32768,
-		"iS": 1084,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/favicons\/android-chrome-256x256.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/assets\/favicons\/apple-touch-icon.png": {
-		"ft": 32768,
-		"iS": 304,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/favicons\/apple-touch-icon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/assets\/favicons\/browserconfig.xml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/favicons\/browserconfig.xml",
-		"oF": 0
-		},
-	"\/_site\/assets\/favicons\/favicon-16x16.png": {
-		"ft": 32768,
-		"iS": 592,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/favicons\/favicon-16x16.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/assets\/favicons\/favicon-32x32.png": {
-		"ft": 32768,
-		"iS": 599,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/favicons\/favicon-32x32.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/assets\/favicons\/favicon.ico": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/favicons\/favicon.ico",
-		"oF": 0
-		},
-	"\/_site\/assets\/favicons\/manifest.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/_site\/assets\/favicons\/manifest-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/_site\/assets\/favicons\/mstile-150x150.png": {
-		"ft": 32768,
-		"iS": 598,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/favicons\/mstile-150x150.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/assets\/favicons\/safari-pinned-tab.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/favicons\/safari-pinned-tab.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/assets\/fonts\/lg.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/fonts\/lg.eot",
-		"oF": 0
-		},
-	"\/_site\/assets\/fonts\/lg.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/fonts\/lg.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/assets\/fonts\/lg.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/fonts\/lg.ttf",
-		"oF": 0
-		},
-	"\/_site\/assets\/fonts\/lg.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/fonts\/lg.woff",
-		"oF": 0
-		},
-	"\/_site\/assets\/fonts\/marrsans-bold.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/fonts\/marrsans-bold.woff",
-		"oF": 0
-		},
-	"\/_site\/assets\/fonts\/marrsans-bold.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/fonts\/marrsans-bold.woff2",
-		"oF": 0
-		},
-	"\/_site\/assets\/fonts\/marrsans-regular.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/fonts\/marrsans-regular.woff",
-		"oF": 0
-		},
-	"\/_site\/assets\/fonts\/marrsans-regular.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/fonts\/marrsans-regular.woff2",
-		"oF": 0
-		},
-	"\/_site\/assets\/fonts\/marrsans-semibold.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/fonts\/marrsans-semibold.woff",
-		"oF": 0
-		},
-	"\/_site\/assets\/fonts\/marrsans-semibold.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/fonts\/marrsans-semibold.woff2",
-		"oF": 0
-		},
-	"\/_site\/assets\/icons\/icon.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/icons\/icon.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/assets\/icons\/symbol-defs.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/icons\/symbol-defs.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/assets\/img\/logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/img\/logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/assets\/img\/og-image.png": {
-		"ft": 32768,
-		"iS": 5383,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/img\/og-image.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/assets\/js\/instafeed.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/js\/min\/instafeed-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_site\/assets\/js\/min\/instafeed-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/js\/min\/min\/instafeed-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_site\/assets\/js\/min\/svgxuse-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/js\/min\/min\/svgxuse-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_site\/assets\/js\/svgxuse.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/js\/min\/svgxuse-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_site\/assets\/scss\/app.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/css\/app.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_site\/assets\/scss\/hamburgers\/hamburgers.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_site\/assets\/scss\/css\/hamburgers.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_site\/assets\/scss\/scroll\/aos.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_site\/assets\/scss\/css\/aos.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/_site\/feed.xml": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/feed.xml",
-		"oF": 0
-		},
-	"\/_site\/humans.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/humans.txt",
 		"oF": 0
 		},
 	"\/_site\/index.html": {
@@ -543,157 +219,11 @@
 		"oAP": "\/_site\/releases\/index.html",
 		"oF": 0
 		},
-	"\/_site\/robots.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/robots.txt",
-		"oF": 0
-		},
 	"\/_site\/sitemap.xml": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/sitemap.xml",
 		"oF": 0
-		},
-	"\/_site\/uploads\/ahead-of-myself.jpg": {
-		"ft": 16384,
-		"iS": 138190,
-		"oA": 0,
-		"oAP": "\/_site\/uploads\/ahead-of-myself.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_site\/uploads\/cant-see-straight.jpg": {
-		"ft": 16384,
-		"iS": 195929,
-		"oA": 0,
-		"oAP": "\/_site\/uploads\/cant-see-straight.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_site\/uploads\/cold-in-ohio.jpg": {
-		"ft": 16384,
-		"iS": 71567,
-		"oA": 0,
-		"oAP": "\/_site\/uploads\/cold-in-ohio.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_site\/uploads\/dont-let-me-let-you-go.jpg": {
-		"ft": 16384,
-		"iS": 115183,
-		"oA": 0,
-		"oAP": "\/_site\/uploads\/dont-let-me-let-you-go.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_site\/uploads\/happy-accidents.jpg": {
-		"ft": 16384,
-		"iS": 180030,
-		"oA": 0,
-		"oAP": "\/_site\/uploads\/happy-accidents.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_site\/uploads\/index-hero.jpg": {
-		"ft": 16384,
-		"iS": 303799,
-		"oA": 0,
-		"oAP": "\/_site\/uploads\/index-hero.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_site\/uploads\/jamie-lawson.jpg": {
-		"ft": 16384,
-		"iS": 164704,
-		"oA": 0,
-		"oAP": "\/_site\/uploads\/jamie-lawson.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_site\/uploads\/last-night-stars.jpg": {
-		"ft": 16384,
-		"iS": 105858,
-		"oA": 0,
-		"oAP": "\/_site\/uploads\/last-night-stars.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_site\/uploads\/someone-for-everyone.jpg": {
-		"ft": 16384,
-		"iS": 169188,
-		"oA": 0,
-		"oAP": "\/_site\/uploads\/someone-for-everyone.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_site\/uploads\/sometimes-its-hard.jpg": {
-		"ft": 16384,
-		"iS": 164280,
-		"oA": 0,
-		"oAP": "\/_site\/uploads\/sometimes-its-hard.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_site\/uploads\/tea-with-ed.jpg": {
-		"ft": 16384,
-		"iS": 237384,
-		"oA": 0,
-		"oAP": "\/_site\/uploads\/tea-with-ed.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_site\/uploads\/the-pull-of-the-moon.jpg": {
-		"ft": 16384,
-		"iS": 65302,
-		"oA": 0,
-		"oAP": "\/_site\/uploads\/the-pull-of-the-moon.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_site\/uploads\/wasnt-expecting-that-video.jpg": {
-		"ft": 16384,
-		"iS": 110248,
-		"oA": 0,
-		"oAP": "\/_site\/uploads\/wasnt-expecting-that-video.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_site\/uploads\/wasnt-expecting-that.jpg": {
-		"ft": 16384,
-		"iS": 70064,
-		"oA": 0,
-		"oAP": "\/_site\/uploads\/wasnt-expecting-that.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
 		},
 	"\/_site\/videos\/index.html": {
 		"ft": 8192,
@@ -808,7 +338,7 @@
 		"oAP": "\/_uploads\/tea-with-ed.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/_uploads\/the-pull-of-the-moon.jpg": {
@@ -1100,15 +630,6 @@
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/app-min.js",
 		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/assets\/js\/instafeed.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/min\/instafeed-min.js",
-		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
@@ -1117,15 +638,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/min\/app-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/assets\/js\/min\/instafeed-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/min\/min\/instafeed-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -5635,64 +5147,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/instafeed.js\/.bower.json": {
-		"ft": 524288,
-		"oA": 2,
-		"oAP": "\/bower_components\/instafeed.js\/.bower.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/bower_components\/instafeed.js\/bower.json": {
-		"ft": 524288,
-		"oA": 2,
-		"oAP": "\/bower_components\/instafeed.js\/bower.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/bower_components\/instafeed.js\/instafeed.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/bower_components\/instafeed.js\/instafeed.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/instafeed.js\/instafeed.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/instafeed.js\/instafeed.min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/instafeed.js\/LICENSE": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bower_components\/instafeed.js\/LICENSE",
-		"oF": 0
-		},
-	"\/bower_components\/instafeed.js\/README.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/bower_components\/instafeed.js\/README.md",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"\/bower_components\/jquery\/.bower.json": {
 		"ft": 524288,
 		"oA": 2,
@@ -8375,64 +7829,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/bower_components\/parallax.js\/.bower.json": {
-		"ft": 524288,
-		"oA": 2,
-		"oAP": "\/bower_components\/parallax.js\/.bower.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/bower_components\/parallax.js\/bower.json": {
-		"ft": 524288,
-		"oA": 2,
-		"oAP": "\/bower_components\/parallax.js\/bower.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/bower_components\/parallax.js\/LICENSE": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bower_components\/parallax.js\/LICENSE",
-		"oF": 0
-		},
-	"\/bower_components\/parallax.js\/parallax.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/parallax.js\/parallax.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/parallax.js\/parallax.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/parallax.js\/parallax.min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/parallax.js\/README.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/bower_components\/parallax.js\/README.md",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"\/bower_components\/svgxuse\/.bower.json": {
 		"ft": 524288,
 		"oA": 2,
@@ -8811,32 +8207,26 @@
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/instafeed.js\/instafeed.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/aos\/dist\/aos.js",
 			"position": 4,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/aos\/dist\/aos.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/lightgallery.js",
 			"position": 5,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/lightgallery.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/modules\/lg-video.js",
 			"position": 6,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/modules\/lg-video.js",
-			"position": 7,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/modules\/lg-fullscreen.js",
-			"position": 8,
+			"position": 7,
 			"type": 0
 			}
 		]
