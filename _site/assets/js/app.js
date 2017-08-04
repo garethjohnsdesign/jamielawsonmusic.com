@@ -1,6 +1,6 @@
 $(document).foundation();
 
-// 2. Light Gallery
+// 1. Light Gallery
 // --------------------
 
 $('#video-gallery').lightGallery({
@@ -37,23 +37,6 @@ $('#featured-video-gallery').lightGallery({
         color : 'FFFFFF'     
     }
 });
-
-
-// 1. Loading
-// --------------------
-
-$(function() {
-if (sessionStorage.getItem('set') === 'set') {
-  $('.loader').hide();
-} else {
-  $('.loader').show();
-  setTimeout(function(){
-        $('.loader').addClass('loaded');
-    }, 1500);  
-  sessionStorage.setItem('set', 'set');
-}
-});
-
 
 
 // 2. Animate on Scroll
