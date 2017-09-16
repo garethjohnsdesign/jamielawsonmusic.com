@@ -6,3 +6,4 @@ sign-up-text: Sign-up now for latest news, live dates and new music
 layout: home
 ---
 
+Test
