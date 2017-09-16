@@ -1,0 +1,63 @@
+---
+title: Jamie Lawson
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  releases:
+    title: Releases
+    output: false
+  uploads:
+    title: Uploads
+    output: false
+  videos:
+    title: Videos
+    output: false
+url: http://jamielawsonmusic.com
+description: Happy Accidents — Out 29 September
+permalink: pretty
+exclude:
+- Gemfile
+- Gemfile.lock
+- bower.json
+- package.json
+- config.codekit3
+- README*
+- LICENSE*
+- CHANGELOG*
+- node_modules
+- ".gitignore"
+- bower_components
+- assets/scss
+gems:
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+colophon: http://garethjohnsdesign.com
+company: Atlantic Records
+email: info@jamielawsonmusic.com
+google_site_verification: 2H45n7mXX-fA6WSupvqf8l_OGWjVhCHS3q_QJawahsw
+analytics: UA-77347534-2
+logo: "/assets/img/logo.svg"
+per_page: 12
+date_format: "%d %B %Y"
+future: true
+social:
+  facebook: https://www.facebook.com/jamielawsonmusic
+  instagram: https://www.instagram.com/jamielawsonmusic
+  twitter: https://www.twitter.com/jamielawsonuk
+  soundcloud: https://soundcloud.com/jamie-lawson-music
+  youtube: https://youtube.com/channel/UC3R5UkoYFxLC37ek0YRkrDw
+  spotify: https://open.spotify.com/artist/1jhdZdzOd4TJLAHqQdkUN
+compress_html:
+  comments:
+  - "<!-- "
+  - " -->"
+  blanklines: true
+  profile: false

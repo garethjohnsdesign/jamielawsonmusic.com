@@ -1,0 +1,40 @@
+<div class="item">
+		<div class="item__image"><img src="{{ release.image }}" alt="{{release.title}}"></div>
+		<div class="item__title text-center" data-aos="fade-in">
+      
+      <ul class="vertical menu accordion-menu" id="music-meta" data-accordion-menu>
+          <li><h5>{{ release.title }}</h5></li>
+					<li>
+						<a href="#">Tracklist</a>
+						<ul class="menu vertical nested">
+						{% for track in release.tracks %}
+							<li>{{track}}</li>
+						{% endfor %}
+						</ul>
+					</li>
+					<li>
+						<a href="#">Buy</a>
+						<ul class="menu vertical nested">
+							{% if {{release.itunes}} %}
+							<li><a href="{{release.itunes}}" target="_blank">iTunes</a></li>
+							{% endif %}
+							{% if {{release.amazon}} %}
+							<li><a href="{{release.amazon}}" target="_blank">Amazon</a></li>
+							{% endif %}
+							{% if {{release.google}} %}
+							<li><a href="{{release.google}}" target="_blank">Google</a></li>
+							{% endif %}
+						</ul>
+					</li>
+					{% if {{release.stream}} %}
+					<li>
+						<a href="#">Stream</a>
+						<ul class="menu vertical nested">
+							<li><a href="{{release.stream}}" target="_blank">Spotify</a></li>
+						</ul>
+					</li>
+					{% endif %}
+				</ul>
+				
+		</div>
+</div>

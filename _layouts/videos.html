@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<!-- Videos -->
+<div class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-2 videos__list" id="video-gallery">
+    {% assign videos = site.videos | reverse %}
+    {% for video in videos limit:6 %}
+      <div class="cell excerpt" data-src="{{video.video}}" data-aos="fade-in">
+      {% include video.html %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+<!-- End Videos -->
